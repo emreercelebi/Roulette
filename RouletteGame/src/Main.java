@@ -21,9 +21,9 @@ public class Main {
 			}
 			break;
 		}
-		s.close();
 		RouletteGame game = new RouletteGame(ante);
-		game.start();		
+		game.start();
+		s.close();
 	}
 
 }
